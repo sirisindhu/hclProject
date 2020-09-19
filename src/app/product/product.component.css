@@ -1,0 +1,27 @@
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.product {
+    margin: 30px;
+    float: left;
+    width: 180px;
+    padding: 20px
+  }
+  
+.product:hover {
+    border: 1px solid #777;
+}
+  
+img {
+    width: 100%;
+    height: 350px;
+}
+  
+.desc {
+    padding: 15px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}

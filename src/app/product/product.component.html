@@ -1,0 +1,12 @@
+<div>
+    <h1>product list</h1>
+    <div class="product-list">
+        <ul class="product" *ngFor="let product of product">
+            <img src={{product.img}}>
+            <div class="details">
+                <li class="desc">{{product.name}}</li>
+                <li class="desc">{{product.price}}</li>
+            </div>
+        </ul>
+    </div>
+</div>
