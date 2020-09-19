@@ -29,3 +29,7 @@ img {
 .product-desc {
     list-style: none;
 }
+
+button {
+    float: right;
+}
